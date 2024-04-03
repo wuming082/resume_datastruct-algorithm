@@ -57,6 +57,8 @@ void mergaSort(int *nums,int left,int right){//没有中值，在递归中计算
     merga(nums,left,mid,right);
 }
 int main(){
+    string a = "hello";
+    printf("%cg vv c",a);
     int arr[] = {4,1,4,1,532,52,654,653,234,564,234,65,5,43,64,13,634,65,13,454};
     mergaSort(arr,0,sizeof(arr)/sizeof(arr[0]));
     for(int i = 0 ; i < sizeof(arr)/sizeof(arr[0]); i++){
